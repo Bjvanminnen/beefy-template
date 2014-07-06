@@ -1,0 +1,19 @@
+{
+  "name": "beefy-template",
+  "version": "0.0.0",
+  "description": "Beefy Template",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "beefy src/main.js:build/bundle_dbg.js 8080 --",
+    "bundle": "browserify src/main.js -o bundle_dbg.js --debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "beefy": "~1.1.0",
+    "browserify": "~3.41.0"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
